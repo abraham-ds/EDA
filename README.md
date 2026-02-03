@@ -9,7 +9,7 @@ This repo contains EDA projects to showcase the power of Python and different st
 In this repository you will find the following projects:
 
 1. **Healthcare Analytics:** Hospital Readmissions Analysis
-2. **TBD:** TBD
+2. **Employee Attrition:** Discovery if there is any significant variables that indeed affect employee attrition. rank the variables from most important to the least.
 
 ---
 ## Repository Structure
@@ -21,8 +21,8 @@ EDA/
 │  ├── README.md
 │  ├── healthcare_analytics.ipynb    # Main analysis notebook
 │
-├── tbd-analytics/
+├── employee-attrition/
 │  ├── images/                       # Images for readme
 │  ├── README.md
-│  ├── tbd.ipynb    # Main analysis notebook
+│  ├── Employee-Attrition-and-Performance.ipynb    # Main analysis notebook
 ```
