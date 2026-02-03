@@ -75,7 +75,7 @@ The dataset includes various categorical features such as:
 - Most patients stay between 2-6 days
 - Hospital stays range from 1 to 14 days
 
-![Average hospital stay](/images/time_in_hospital.png "Time in Hospital")
+![Average hospital stay](images/time_in_hospital.png "Time in Hospital")
 
 
 ### Medical Complexity
@@ -85,18 +85,30 @@ The dataset includes various categorical features such as:
 - **Diagnoses:** Patients typically have 7-8 concurrent diagnoses
 - High variation in number of medications (1-81) suggests diverse patient complexity
 
+![Medical Complexity](images/num_lan_procedures.png "Medical Complexity")
+
 ### Prior Healthcare Utilization
 
 - **Inpatient visits:** Average of 0.64 prior admissions
+
+![Inpatient visits](images/num_inpatient.png "Inpatient visits")
+
 - **Emergency visits:** Average of 0.20 prior emergency encounters  
+
+![Emergency visits](images/num_emergency.png "Emergency visits")
+
 - **Outpatient visits:** Average of 0.37 prior outpatient encounters
 - Most patients (50th percentile) have no prior emergency or outpatient visits
+
+![Outpatient visits](images/num_outpatients.png "Outpatient visits")
 
 ### Treatment Patterns
 
 - **Procedures:** Median of 1 procedure per stay
 - 25% of patients have no procedures performed
 - Maximum of 6 procedures observed
+
+![Procedures](images/num_procedures.png "Procedures")
 
 ---
 
@@ -222,9 +234,8 @@ Potential extensions of this analysis:
 healthcare-analytics/
 │
 ├── healthcare_analytics.ipynb    # Main analysis notebook
-├── diabetic_data.csv             # Primary dataset
-├── IDS_mapping.csv               # Dimensional mapping file
-└── README.md                     # This file
+├── README.md                     # This file
+└── images/                       # images used in README
 ```
 
 ---
